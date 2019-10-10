@@ -15,12 +15,21 @@ Process Maker are two docker images:-
 
 # Installation Guideline
 
-Generally docker composer up in demon or background
+Generally Runing process with docker composer up in demon or background
     
     docker network prune
     docker-compose up -d
 
-Now, Runing process, inspect into specific mysql container id or name like below, 
+Open browser with following below issues:-
+
+- https://localhost:8091
+
+
+![](./images/2019-10-11_02191.jpg)
+![](./images/2019-10-11_02192.jpg)
+![](./images/2019-10-11_02193.jpg)
+
+`Note` Database not connected properly, cause `Host Name` not found. So now, inspect into specific mysql container id or name like below and get `"IPAddress": "172.16.150.2"` from `Network Section`. 
 
     docker ps
     docker inspect [396319b4c448]
@@ -30,8 +39,8 @@ Now, Runing process, inspect into specific mysql container id or name like below
     docker inspect [processmaker-docker_mysql_1]
 
 
-Now Open. 
-
+![](./images/2019-10-11_02194.jpg)
+![](./images/2019-10-11_02195.jpg)
 
 
 Generally docker composer down process
