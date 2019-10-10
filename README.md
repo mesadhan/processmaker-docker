@@ -41,16 +41,17 @@ Open browser with following below issues:-
 
 ![](./images/2019-10-11_02194.jpg)
 ![](./images/2019-10-11_02195.jpg)
+![](./images/2019-10-11_02196.jpg)
 
 
-Generally docker composer down process
+Finally, down  docker composer process
 
     docker-compose -f down
 
 
 
 
-# Docker Compose from user custom name
+# Docker Compose from, Custom docker composer file name
 
 To run docker compose from file
 
