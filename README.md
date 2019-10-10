@@ -81,3 +81,9 @@ show all the available networks
     
     docker network rm [name_network or id] 
 
+
+
+# References
+
+- https://bitbucket.org/eltercera/docker-processmaker/src/master/
+- https://github.com/processmaker-cloudops/docker
